@@ -1702,7 +1702,7 @@ export default function App() {
       <SeasonToggle current={themeName} onChange={setThemeName} />
       <div style={{ minHeight: "100vh", transition: "background 0.8s ease" }}>
         <Hero />
-        <WildPaths />
+        {/* <WildPaths /> */}
         <Founder />
         <Footer />
       </div>
